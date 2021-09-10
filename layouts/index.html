@@ -1,14 +1,50 @@
 {{ define "main" }}
-<main aria-role="main">
-  <header class="homepage-header">
-    <h1>{{.Title}}</h1>
-    {{ with .Params.subtitle }}
-    <span class="subtitle">{{.}}</span>
-    {{ end }}
-  </header>
-  <div class="homepage-content">{{.Content}}</div>
-  <div>
-    {{ range first 10 .Site.RegularPages }} {{ .Render "summary"}} {{ end }}
+<main class="main-content" aria-role="main">
+  <div class="container">
+    <div class="main-grid">
+      <div class="grid-item first-item">
+        <div class="image-container"></div>
+        <div class="info">
+          <h6 class="item-title">puppy place</h6>
+          <p class="item-description">place</p>
+        </div>
+      </div>
+      <div class="grid-item secondary-item">
+        <div class="image-container"></div>
+        <div class="info">
+          <h6 class="item-title">puppy place</h6>
+          <p class="item-description">place</p>
+        </div>
+      </div>
+      <div class="grid-item third-item">
+        <div class="image-container"></div>
+        <div class="info">
+          <h6 class="item-title">puppy place</h6>
+          <p class="item-description">place</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="image-container"></div>
+        <div class="info">
+          <h6 class="item-title">puppy place</h6>
+          <p class="item-description">place</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="image-container"></div>
+        <div class="info">
+          <h6 class="item-title">puppy place</h6>
+          <p class="item-description">place</p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="image-container"></div>
+        <div class="info">
+          <h6 class="item-title">puppy place</h6>
+          <p class="item-description">place</p>
+        </div>
+      </div>
+    </div>
   </div>
 </main>
 {{ end }}

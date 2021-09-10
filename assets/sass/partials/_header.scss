@@ -1,0 +1,27 @@
+.main-header-inner {
+  display: flex;
+  padding: 33px 0;
+}
+
+.logo {
+  font-size: 41px;
+  font-weight: bold;
+  margin: 0 45px 0 0;
+}
+
+.main-nav {
+  align-items: center;
+  display: flex;
+}
+
+.nav-link {
+  color: $black-0;
+  border-bottom: 2px solid transparent;
+  margin: 0 15px 0 0;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  border-color: $black-0;
+  font-weight: bold;
+}
