@@ -31,5 +31,5 @@ jobs:
           #   keep_files: true
           user_name: pradow
           user_email: pradochris+pradow@protonmail.com
-          publish_branch: gh-pages
+          publish_branch: somewhere-else
           #   cname: pradow.com
