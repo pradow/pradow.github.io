@@ -1,4 +1,5 @@
-.journal-content {
+.journal-content,
+.journal-sidebar {
   font-family: "Pathway Gothic One", sans-serif;
 }
 
@@ -70,7 +71,52 @@
 }
 
 .journal-author {
-  font-size: 9px;
+  font-size: 15px;
+}
+
+//post
+.journal-post {
+  display: flex;
+  min-height: 300px;
+}
+
+.journal-sidebar {
+  flex-shrink: 0;
+  position: relative;
+  width: 300px;
+}
+
+.journal-post p {
+  font-size: 17px;
+}
+
+.journal-post img {
+  width: 100%;
+}
+
+.journal-sidebar .journal-item-image {
+  font-size: 11px;
+  height: 167px;
+  width: 100%;
+}
+
+.journal-article {
+  flex: 1 1 auto;
+  padding: 0 110px;
+}
+
+@media (max-width: 900px) {
+  .journal-post {
+    display: block;
+  }
+
+  .journal-sidebar {
+    width: 100%;
+  }
+
+  .journal-article {
+    padding: 0 30px;
+  }
 }
 
 @media (max-width: 750px) {

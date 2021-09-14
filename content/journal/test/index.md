@@ -4,24 +4,24 @@ date: 2021-07-27T17:29:15-07:00
 draft: false
 author: "pradow"
 category: "javascript"
-image: "test/images/nature.jpg"
+image: "images/nature.jpg"
 ---
 
 lorem
 
 ## 6
 
-![Example image](images/nature.jpg)
+<span class="image-block"> ![Example image](images/nature.jpg)</span>
 
 lorem
 
-{{< highlight html >}}
+{{< highlight html "linenos=table,hl_lines=8 15-17,linenostart=1">}}
 
 <main>main</main>
 
 {{< / highlight >}}
 
-{{< highlight css >}}
+{{< highlight css "linenos=table,hl_lines=8 15-17,linenostart=1">}}
 
 main {
 color: green;

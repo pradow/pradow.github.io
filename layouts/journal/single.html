@@ -1,7 +1,19 @@
 {{ define "main" }}
 
-<main class="content" role="main">
-  <article class="article">
+<main class="journal-post" role="main">
+  <aside class="journal-sidebar">
+    <div
+      class="journal-item-image"
+      style="background-image: url({{ .Params.image }})"
+    >
+      <span class="journal-date"> {{ .Date.Format "January 2, 2006" }} </span>
+    </div>
+    <div class="journal-item-info">
+      <div class="journal-category">{{ .Params.category }}</div>
+      <h2 class="journal-title">{{ .Params.title }}</h2>
+    </div>
+  </aside>
+  <article class="journal-article">
     {{ if eq .Section "post" }}
     <span class="article-duration">{{ .ReadingTime }} min read</span>
     {{ end }}

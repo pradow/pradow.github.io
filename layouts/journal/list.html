@@ -1,13 +1,13 @@
 {{ define "main" }}
 
-<main class="content" role="main">
+<main class="journal-content" role="main">
   <ul class="journal-list">
     {{ range .Pages }}
     <li class="journal-item">
       <a href="{{ .Permalink }}" class="journal-link">
         <div
           class="journal-item-image"
-          style="background-image: url({{ .Params.image }})"
+          style="background-image: url(test/{{ .Params.image }})"
         >
           <span class="journal-date">
             {{ .Date.Format "January 2, 2006" }}
@@ -16,7 +16,6 @@
         <div class="journal-item-info">
           <div class="journal-category">{{ .Params.category }}</div>
           <h2 class="journal-title">{{ .Params.title }}</h2>
-          <h5 class="journal-author">{{ .Params.author }}</h5>
         </div>
       </a>
     </li>
