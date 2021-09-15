@@ -6,6 +6,7 @@
 
 .footer-grid {
   display: grid;
+  column-gap: 55px;
   grid-template-columns: 1fr 1fr 1fr 2fr;
   grid-template-rows: 1fr;
 }
@@ -26,4 +27,8 @@
   font-weight: normal;
   text-decoration: none;
   margin: 0 0 7px 0;
+}
+
+.footer-link:hover {
+  border-bottom: 1px solid $black-0;
 }
