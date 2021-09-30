@@ -4,14 +4,12 @@ date: 2021-07-27T17:29:15-07:00
 draft: false
 author: "pradow"
 category: "javascript"
-image: "images/nature.jpg"
+image: "/images/forest.jpg"
 ---
 
 lorem
 
 ## 6
-
-<span class="image-block"> ![Example image](images/nature.jpg)</span>
 
 lorem
 

@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "title": "Countrynfo",
+      "description": "React",
+      "url": "https://pradow.com/countrynfo/#/",
+      "image": "images/nature.jpg"
+    },
+    {
+      "title": "Bookshelf",
+      "description": "Vanilla Javascript",
+      "url": "https://pradow.com/bookshelf/",
+      "image": "images/forest.jpg"
+    },
+    {
+      "title": "Vydlist",
+      "description": "Vanilla Javascript",
+      "url": "https://pradow.com/vydlist/",
+      "image": "images/death-valley.jpg"
+    },
+    {
+      "title": "In Progress",
+      "description": "...",
+      "url": "#",
+      "image": "images/ocean.jpg"
+    },
+    {
+      "title": "In Progress",
+      "description": "...",
+      "url": "#",
+      "image": "images/winter.jpg"
+    },
+    {
+      "title": "In Progress",
+      "description": "...",
+      "url": "#",
+      "image": "images/hintersee.jpg"
+    }
+  ]
+}

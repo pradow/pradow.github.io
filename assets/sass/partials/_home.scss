@@ -5,6 +5,25 @@
   grid-template-rows: [main-start] 1fr 1fr [main-end] 1fr;
 }
 
+.grid-item {
+  color: $black-0;
+  text-decoration: none;
+}
+
+.grid-item:hover .image-container::after {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(/images/pointer.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .first-item {
   display: grid;
   grid-area: main;
@@ -13,12 +32,13 @@
 }
 
 .image-container {
-  background-image: url("https://place-puppy.com/450x251");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   padding-top: 52.777778%;
+  position: relative;
   flex: 1 1 auto;
+  transition: all 0.2s ease-in-out;
 }
 
 .first-item .image-container {
@@ -28,6 +48,10 @@
 .item-title {
   font-size: 17px;
   margin: 5px 0;
+}
+
+.item-description {
+  margin: 0;
 }
 
 @media (max-width: 721px) {
