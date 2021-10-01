@@ -13,6 +13,7 @@
   display: flex;
   height: 60vh;
   text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .journal-link {
@@ -59,6 +60,10 @@
   justify-content: center;
   padding: 50px 15px;
   text-align: center;
+}
+
+.journal-item:hover {
+  background-color: $grey-1;
 }
 
 .journal-catagory {
