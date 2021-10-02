@@ -50,8 +50,8 @@
   margin: 5px 0;
 }
 
-.item-description {
-  margin: 0;
+.item-icon svg {
+  width: 19px;
 }
 
 @media (max-width: 721px) {
@@ -64,12 +64,23 @@
     margin-bottom: 31px;
   }
 
+  .image-container {
+    height: 240px;
+    padding: 0 !important;
+  }
+
   .info {
     margin: 0 0 0 15px;
+    width: 85px;
   }
 
   .item-title {
     line-height: 0.7;
     margin-top: 0;
+  }
+
+  .item-icon svg {
+    margin: 9px 0 0 0;
+    width: 25px;
   }
 }
