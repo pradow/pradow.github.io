@@ -7,13 +7,14 @@
 .footer-grid {
   display: grid;
   column-gap: 55px;
-  grid-template-columns: 1fr 1fr 1fr 2fr;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   grid-template-rows: 1fr;
 }
 
 .footer-grid-item {
   display: flex;
   flex-direction: column;
+  margin: 0 0 25px 0;
 }
 
 .footer-title {
@@ -22,6 +23,7 @@
 }
 
 .footer-link {
+  align-self: flex-start;
   color: $black-0;
   font-size: 24px;
   font-weight: normal;
@@ -29,6 +31,6 @@
   margin: 0 0 7px 0;
 }
 
-.footer-link:hover {
+a.footer-link:hover {
   text-decoration: underline;
 }
