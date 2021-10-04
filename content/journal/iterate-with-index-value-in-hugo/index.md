@@ -20,12 +20,12 @@ We can then use the index variable within the loop to add conditionals based on 
 {{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=1">}}
 
 {{ range $index, $projects := .Site.Data.home.projects }}
-<a class="{{ if eq $index 0}}first-item{{ end }} grid-item" href="{{ .url }}">
-    <div class="image-container" style="background-image: url({{ .image }})"></div>
+<a class="{{ if eq $index 0}}first-item{{ end }} grid-item" href="{{ $projects.url }}">
+    <div class="image-container" style="background-image: url({{ $projects.image }})"></div>
     <div class="info">
-        <h6 class="item-title">{{ .title }}</h6>
+        <h6 class="item-title">{{ $projects.title }}</h6>
         <div class="item-icon">
-            {{ partial "svg.html" . }}
+            {{ partial "svg.html" $projects }}
         </div>
     </div>
 </a>
