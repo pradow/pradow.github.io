@@ -4,11 +4,16 @@
 }
 
 .journal-item {
-  border-bottom: 1px solid $black-0;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid $grey-0;
   display: flex;
   height: 60vh;
-  text-transform: uppercase;
+  text-transform: capitalize;
   transition: background-color 0.3s ease-in-out;
+}
+
+.journal-item:last-child {
+  border: none;
 }
 
 .journal-link {
@@ -68,6 +73,7 @@
 .journal-title {
   font-size: 38px;
   margin: 0;
+  text-transform: capitalize;
 }
 
 .journal-author {
