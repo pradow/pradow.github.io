@@ -3,7 +3,7 @@ title: "Iterate With Index Value in Hugo"
 date: 2021-10-03T10:14:08-07:00
 draft: false
 author: "pradow"
-category: "hugo"
+description: "hugo"
 image: "/images/forest.jpg"
 ---
 

@@ -4,8 +4,8 @@
 }
 
 .journal-item {
-  background-color: #f5f5f5;
-  border-bottom: 1px solid $grey-0;
+  background-color: $grey-0;
+  border-bottom: 1px solid $white-0;
   display: flex;
   height: 60vh;
   text-transform: capitalize;
@@ -28,6 +28,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   position: relative;
   width: 40%;
@@ -63,15 +64,15 @@
 }
 
 .journal-item:hover {
-  background-color: #f0f2fa;
+  background-color: $grey-1;
 }
 
-.journal-catagory {
-  font-size: 11px;
+.journal-category {
+  width: 30px;
 }
 
 .journal-title {
-  font-size: 38px;
+  font-size: 25px;
   margin: 0;
   text-transform: capitalize;
 }

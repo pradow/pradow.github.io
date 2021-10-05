@@ -9,7 +9,7 @@
       <span class="journal-date"> {{ .Date.Format "January 2, 2006" }} </span>
     </div>
     <div class="journal-item-info">
-      <div class="journal-category">{{ .Params.category }}</div>
+      <div class="journal-category">{{ partial "svg.html" .Params }}</div>
     </div>
   </aside>
   <article class="journal-article">
