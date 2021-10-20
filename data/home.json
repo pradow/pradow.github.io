@@ -7,6 +7,12 @@
       "image": "images/nature.jpg"
     },
     {
+      "title": "Pokefetch",
+      "description": "next",
+      "url": "https://pradow.com/pokefetch/",
+      "image": "images/winter.jpg"
+    },
+    {
       "title": "Bookshelf",
       "description": "javascript",
       "url": "https://pradow.com/bookshelf/",
@@ -23,12 +29,6 @@
       "description": "hugo",
       "url": "https://pradow.com/journal/",
       "image": "images/ocean.jpg"
-    },
-    {
-      "title": "In Progress",
-      "description": "...",
-      "url": "#",
-      "image": "images/winter.jpg"
     },
     {
       "title": "In Progress",
