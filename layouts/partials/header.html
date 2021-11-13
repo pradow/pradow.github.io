@@ -1,3 +1,4 @@
+<!-- commit add condition to set active link -->
 <header class="main-header">
   <div class="container">
     <div class="main-header-inner">
@@ -5,8 +6,8 @@
         <div class="logo">P</div>
       </div>
       <nav class="main-nav">
-        <a href="/" class="nav-link">Projects</a>
-        <a href="/journal" class="nav-link">Journal</a>
+        <a href="/" class="{{ if eq .RelPermalink "/" }}active-link{{ end }} nav-link">Projects</a>
+        <a href="/journal" class="{{ if eq .RelPermalink "/journal/" }}active-link{{ end }}  nav-link">Journal</a>
         <a href="https://github.com/pradow" class="nav-link">GitHub</a>
       </nav>
     </div>
