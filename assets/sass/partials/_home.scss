@@ -60,6 +60,10 @@
   width: 19px;
 }
 
+.disabled-item {
+  pointer-events: none;
+}
+
 @media (max-width: 721px) {
   .main-grid {
     display: block;
