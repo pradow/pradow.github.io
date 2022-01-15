@@ -1,8 +1,8 @@
 .main-grid {
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: [main-start] 1fr 1fr [main-end] 1fr;
-  grid-template-rows: [main-start] 1fr 1fr [main-end] 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .grid-item {
@@ -10,45 +10,23 @@
   text-decoration: none;
 }
 
-.grid-item:hover .image-container::after {
-  opacity: 0.3;
-}
-
-.image-container::after {
-  background-color: $black-0;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 50%;
-  content: "";
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
-  transition: all 0.2s ease-in-out;
-}
-
-.first-item {
-  display: grid;
-  grid-area: main;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 61px;
-}
-
 .image-container {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding-top: 52.777778%;
-  position: relative;
+  background: center / cover no-repeat;
   flex: 1 1 auto;
-  transition: all 0.2s ease-in-out;
+  padding-top: 56.25%;
+  position: relative;
 }
 
-.first-item .image-container {
-  padding-top: 62.4444444%;
+.image-container-overlay {
+  background-color: $black-0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+
+  transition: opacity 0.3s ease-in-out;
 }
 
 .item-title {
@@ -64,6 +42,10 @@
   pointer-events: none;
 }
 
+.grid-item:hover .image-container-overlay {
+  opacity: 0.4;
+}
+
 @media (max-width: 721px) {
   .main-grid {
     display: block;
@@ -72,11 +54,6 @@
   .grid-item {
     display: flex;
     margin-bottom: 31px;
-  }
-
-  .image-container {
-    height: 240px;
-    padding: 0 !important;
   }
 
   .info {
