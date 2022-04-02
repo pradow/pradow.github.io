@@ -34,6 +34,19 @@
   margin: 5px 0;
 }
 
+.item-title a {
+  color: $black-0;
+  text-decoration: none;
+}
+
+.item-title a:hover {
+  text-decoration: underline;
+}
+
+.icon-image {
+  width:  19px;
+}
+
 .item-icon svg {
   width: 19px;
 }
@@ -42,7 +55,7 @@
   pointer-events: none;
 }
 
-.grid-item:hover .image-container-overlay {
+.item-link:hover .image-container-overlay {
   opacity: 0.4;
 }
 
@@ -56,6 +69,10 @@
     margin-bottom: 31px;
   }
 
+  .item-link {
+    width: 100%;
+  }
+
   .info {
     margin: 0 0 0 15px;
     width: 85px;
@@ -65,7 +82,8 @@
     margin-top: 0;
   }
 
-  .item-icon svg {
+  .item-icon svg,
+  .icon-image {
     margin: 9px 0 0 0;
     width: 25px;
   }

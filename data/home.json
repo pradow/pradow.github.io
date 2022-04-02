@@ -4,37 +4,43 @@
       "title": "Countrynfo",
       "description": "react",
       "url": "https://pradow.com/countrynfo/#/",
-      "image": "images/nature.jpg"
+      "image": "images/nature.jpg",
+      "github": "https://github.com/pradow/countrynfo"
     },
     {
       "title": "Pokefetch",
       "description": "next",
       "url": "https://pradow.com/pokefetch/",
-      "image": "images/winter.jpg"
+      "image": "images/winter.jpg",
+      "github": "https://github.com/pradow/pokefetch"
     },
     {
       "title": "Bookshelf",
       "description": "javascript",
       "url": "https://pradow.com/bookshelf/",
-      "image": "images/forest.jpg"
+      "image": "images/forest.jpg",
+      "github": "https://github.com/pradow/bookshelf"
     },
     {
       "title": "Vydlist",
       "description": "javascript",
       "url": "https://pradow.com/vydlist/",
-      "image": "images/death-valley.jpg"
+      "image": "images/death-valley.jpg",
+      "github": "https://github.com/pradow/vydlist"
     },
     {
       "title": "Journal",
       "description": "hugo",
       "url": "https://pradow.com/journal/",
-      "image": "images/ocean.jpg"
+      "image": "images/ocean.jpg",
+      "github": "https://github.com/pradow/pradow.github.io"
     },
     {
       "title": "Library Mage",
       "description": "next",
       "url": "https://pradow.com/librarymage/",
-      "image": "images/hintersee.jpg"
+      "image": "images/hintersee.jpg",
+      "github": "https://github.com/pradow/librarymage"
     }
   ]
 }
