@@ -47,6 +47,10 @@
   width:  19px;
 }
 
+.item-icon {
+  margin: 0 2px 0 0;
+}
+
 .item-icon svg {
   width: 19px;
 }
@@ -70,7 +74,7 @@
   }
 
   .item-link {
-    width: 100%;
+    flex: 1 1 auto;
   }
 
   .info {
