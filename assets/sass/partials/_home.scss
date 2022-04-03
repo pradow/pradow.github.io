@@ -29,6 +29,13 @@
   transition: opacity 0.3s ease-in-out;
 }
 
+.overlay-icon {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 40px;
+}
+
 .item-title {
   font-size: 17px;
   margin: 5px 0;
